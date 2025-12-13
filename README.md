@@ -1,6 +1,17 @@
-# tmux-smooth-scroll
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d4f90bb9-0626-4dec-8274-e48f8cc91914" alt="tmux-smooth-scroll logo" />
+</p>
+<h1 align="center">tmux-smooth-scroll</h1>
 
-Smooth scrolling for tmux copy-mode. Detects your scrolling `mode-keys` and replaces them with animated versions. 
+<p align="center">
+Animated scrolling for tmux—helps you track your reading position when scrolling.
+</p>
+
+<p align="center">
+<img width="50%" src="https://github.com/user-attachments/assets/65e51ab9-9474-46bf-a9fc-5b31e0ec1c5a"></img>
+</p>
+
+<br>
 
 ## Installation
 
@@ -32,7 +43,7 @@ Reload: `tmux source-file ~/.tmux.conf`
 
 ## Configuration
 
-Optional in `~/.tmux.conf`:
+Optional settings in `~/.tmux.conf`:
 
 ```tmux
 # Speed: 0-1000 | lower = faster
