@@ -4,11 +4,11 @@
 <h1 align="center">tmux-smooth-scroll</h1>
 
 <p align="center">
-Animated scrolling for tmux—helps you track your reading position when scrolling.
+  Smooth scrolling for tmux—makes scrolling easy to follow.
 </p>
 
 <p align="center">
-<img width="50%" src="https://github.com/user-attachments/assets/65e51ab9-9474-46bf-a9fc-5b31e0ec1c5a"></img>
+<img width="50%" src="https://github.com/user-attachments/assets/c1e816a8-411c-44c5-8b15-97c70dcf7248"></img>
 </p>
 
 <br>
